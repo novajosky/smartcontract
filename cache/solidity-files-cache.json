@@ -86,8 +86,8 @@
       ]
     },
     "/Users/michaelnovajosky/code/hardhat/smartcontract/node_modules/@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol": {
-      "lastModificationDate": 1666061634758,
-      "contentHash": "fc398ecdfc4d9dd8ebb15889e8d61f20",
+      "lastModificationDate": 1666637195845,
+      "contentHash": "bdbf3e274e50272d9c830fa414fcbec9",
       "sourceName": "@chainlink/contracts/src/v0.8/interfaces/KeeperCompatibleInterface.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -119,17 +119,17 @@
           }
         }
       },
-      "imports": [
-        "./AutomationCompatibleInterface.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
         "^0.8.0"
       ],
-      "artifacts": []
+      "artifacts": [
+        "KeeperCompatibleInterface"
+      ]
     },
     "/Users/michaelnovajosky/code/hardhat/smartcontract/node_modules/@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol": {
-      "lastModificationDate": 1666061634758,
-      "contentHash": "8c9ed3426b676f67ee200a2bec96e224",
+      "lastModificationDate": 1666637195846,
+      "contentHash": "56ec852a2aeddf81bf5a5720a7fc6a63",
       "sourceName": "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -169,51 +169,9 @@
         "VRFCoordinatorV2Interface"
       ]
     },
-    "/Users/michaelnovajosky/code/hardhat/smartcontract/node_modules/@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol": {
-      "lastModificationDate": 1666061634758,
-      "contentHash": "c52969cee392918edbf23f914e01c0dc",
-      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "AutomationCompatibleInterface"
-      ]
-    },
     "/Users/michaelnovajosky/code/hardhat/smartcontract/node_modules/@chainlink/contracts/src/v0.8/mocks/VRFCoordinatorV2Mock.sol": {
-      "lastModificationDate": 1666061634757,
-      "contentHash": "a78f72f6c18077e727bc06d7f96b2031",
+      "lastModificationDate": 1666637195846,
+      "contentHash": "0e99ed258a59dc48bc432008b39453cd",
       "sourceName": "@chainlink/contracts/src/v0.8/mocks/VRFCoordinatorV2Mock.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -342,7 +300,7 @@
       "artifacts": []
     },
     "/Users/michaelnovajosky/code/hardhat/smartcontract/contracts/Raffle.sol": {
-      "lastModificationDate": 1666296951541,
+      "lastModificationDate": 1666305825846,
       "contentHash": "42d3b28cab66a3d56566a13eb5e20668",
       "sourceName": "contracts/Raffle.sol",
       "solcConfig": {
