@@ -29,11 +29,11 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
 
     const args = [
         vrfCoordinatorV2Address,
-        entranceFee,
-        gasLane,
         subscriptionId,
-        callbackGasLimit,
+        gasLane,
         interval,
+        entranceFee,
+        callbackGasLimit,
     ]
     const raffle = await deploy("Raffle", {
         from: deployer,
